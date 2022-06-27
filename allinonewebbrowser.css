@@ -1,0 +1,68 @@
+.one-button {
+    background-color: rgb(253, 38, 38);
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    border-color: none;
+}
+
+.one-button {
+    width: 400px;
+    height: 40px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+  }
+
+@keyframes example {
+    0%   {background-color: red;}
+    7%  {background-color: orange;}
+    14%  {background-color: yellow;}
+    21% {background-color: yellowgreen;}
+    28%   {background-color: green;}
+    35%  {background-color: darkgreen;}
+    42%  {background-color: rgb(0, 100, 82);}
+    49% {background-color: lightblue;}
+    56%   {background-color: rgb(118, 62, 238);}
+    64%  {background-color: blue;}
+    71%  {background-color: rgb(144, 0, 255);}
+    78% {background-color: rgb(246, 61, 252);}
+    85%   {background-color: rgb(253, 4, 170);}
+    92%  {background-color: rgb(253, 4, 95);}
+    100%  {background-color: red;}
+    
+}
+
+body {
+    background-image: url("redsea.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 30px solid transparent;
+    border-image: url("border3.png") 30 stretch;
+}
+
+span {
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    background-color: red;
+    text-align: center;
+    
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+
+
+
+
+
+
